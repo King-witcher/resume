@@ -1,75 +1,85 @@
-# **Giuseppe Lanna**
+# Giuseppe Lanna
 
-## **Senior Full Stack Engineer, React Specialist**
+**Senior Full Stack Engineer — AI/LLM & React**
 
-São Paulo/SP \- Brazil
+São Paulo, Brazil · Remote · overlaps US & EU business hours
 
-| [Phone  (+55) 11 96054-1030](http://wa.me/5511960541030) | [E-mail  giuseppe.2000@hotmail.com](mailto:giuseppe.2000@hotmail.com) |
-| :---- | :---- |
-| **[Github](http://github.com/king-witcher)** [.com/king-witcher](http://github.com/king-witcher) | **[LinkedIn](http://linkedin.com/in/giuseppe-lanna)**  [.com/in/giuseppe-lanna](http://linkedin.com/in/giuseppe-lanna) |
+[Email](mailto:giuseppe.2000@hotmail.com) · [WhatsApp](http://wa.me/5511960541030) · [GitHub](http://github.com/king-witcher) · [LinkedIn](http://linkedin.com/in/giuseppe-lanna)
 
 ---
 
-# **Summary**
+## Summary
 
-Graduated in Information Systems from the **University of São Paulo**, I am a Senior Full Stack Software Engineer, with **4 years** of startup experience building full-stack applications using React and Node.js, along with a wide range of supporting tools for authentication, styling, observability, testing and LLM-based integrations.
+Senior Full Stack Engineer with 4+ years building and shipping production web apps end-to-end in **React** and **Node.js / TypeScript**. I put AI into real products — **RAG, tool-calling, and multi-provider LLM orchestration** — without giving up deep frontend craft (performance, 3D/WebGL, design systems). Recently architected and led **CoGEdu**, a multi-tenant LMS serving **1,800+ users**, from a 170-table schema to production on AWS. I like owning ambiguous problems end-to-end and working async with distributed, English-speaking teams.
 
-# **Main skills**
+## AI / LLM Engineering
 
-* **Frontend:** Strong experience with React (Ne**X**t.js and Vite.js)
-* **Backend:** Node.js, (Ne**S**t.js, Express.js)
-* **Styling:** Tailwind, Radix UI, Shadcn
-* **LLMs / AI:** chat completion, tool calling, structured outputs, embeddings/RAG; multi-provider via gateway (Anthropic, OpenAI, Google)
-* **State management:** TanStack React Query, Tanstack Router, Redux Toolkit, Zustand, Apollo (GraphQL)
-* **Protocols / Messaging:** GraphQL, Web Sockets ([Socket.io](http://Socket.io)), RabbitMQ
-* **Auth:** Keycloak (SSO/OIDC), JWT
-* **Cloud / Deploy:** AWS — ECS (deploy & operate), S3, Secrets Manager; Docker; Render, Vercel, Heroku, Supabase, NeonDB
-* **Testing:** Vitest, Ladle (similar to Storybook)
-* **Debugging:** Sentry.io, VSCode Launch and Task configurations.
-* **DBMS’s:**  PostgreSQL, Firestore
-* **Rust:** Tokio, Diesel, Reqwest, Thiserror (and a lot of love for the language :D)
-* **Rendering:** Hobbyist understanding on OpenGL, GLSL, SDL3, Three.js, Vulkan, Slang
+- Designed and built an **LLM orchestrator** with RBAC-scoped **tool-calling** and **RAG** over course content, powering in-product assistants for CoGEdu.
+- Integrated **Anthropic, OpenAI and Google** behind a single gateway — chat completion, structured outputs, embeddings and retrieval.
+- Built **Cogfy Engines**, an internal platform that automates building LLM-powered chatbots, cutting delivery time for client products.
+- Co-built **Socialgen.ai**, an OpenAI-powered social-media generator that became one of R2U's flagship products.
 
-# **Languages**
+## Core Skills
 
-* Português \- Nativo
-* English \- Fluent
+- **Frontend:** React (Next.js, Vite), TanStack Query/Router, Redux Toolkit, Zustand, Apollo Client, Tailwind CSS, Radix UI, shadcn/ui, Three.js
+- **Backend:** Node.js (NestJS, Express), TypeScript, GraphQL, WebSockets (Socket.io), RabbitMQ
+- **AI / LLM:** chat completion, tool-calling, structured outputs, embeddings & RAG, multi-provider gateway (Anthropic, OpenAI, Google)
+- **Databases:** PostgreSQL, Firestore
+- **Cloud & DevOps:** AWS (ECS, S3, Secrets Manager), Docker, Vercel, Render, Supabase, Neon
+- **Auth:** Keycloak (SSO/OIDC), JWT
+- **Testing & Observability:** Vitest, Ladle, Sentry
+- **Also:** Rust (Tokio, Diesel, Reqwest) — merged a fix into the graph-node protocol
 
-# **Experience**
+## Experience
 
-* ## **Full Stack Software Engineer @ Vivalisto | 2022.03 \- 2022.08 (6 months)**
+### Senior Full Stack Engineer — Indigo Hive
+*Aug 2025 – Present*
 
-  Developed and maintained Vivalisto’s web apps using **React**, Angular, **Express**, **MongoDB** and **MySQL**. Automated the generation of customized PDF contracts by customer name, which was printed 1400+ times by the time I was at Vivalisto. Efficiently structured the database and achieved over 3x faster load times restructuring queries and adding indexes.
+- Architected and lead end-to-end development of **CoGEdu**, a multi-tenant LMS + student-admissions platform — two **React** frontends, a **TypeScript/Node** API, and a **170-table PostgreSQL** schema on **AWS** (ECS, S3, Secrets Manager) — serving **1,800+ users** across multiple institutions.
+- Built its core systems: multi-tenant **RBAC** with **Keycloak** SSO, an event-driven **RabbitMQ** audit/email pipeline, an assessment & attendance engine, and an **LLM orchestrator** with RBAC-scoped tool-calling and **RAG**.
+- Shipped a visual **WhatsApp Flows editor** in React, letting the company deliver form-driven chatbot products to clients without custom code.
+- Code-reviewed and mentored two junior developers.
 
-* ## **3D Frontend Software Engineer @ R2U | 2022.09 \- 2023.08 (1 year)**
+### Senior Frontend Engineer — Grupo Protege
+*Mar 2025 – Aug 2025*
 
-* Maintained and improved a 3D model viewer and an npm SDK built with **Three.js** and React. Diagnosed and fixed memory leaks to improve performance and implemented support for GLTF animations.
-* Integrated the company’s SDK across multiple client websites, providing augmented reality experiences for retail clients via QR code in product pages allowing customers to experience products in their homes, with about 80% of interaction rate.
-* Delivered multiple custom React \+ Firebase \+ proprietary 3D SDK applications for clients, such as the [GE HealthCare Immersive Demo](https://gehc-immersive-demo.netlify.app/) (Vite, React), [Reserva DApp](https://spriznft.usereserva.com/) (Next.js 12, Styled Components, **i18n**) and Socialgen.ai (**Next.js 13**, Chakra UI, **Firebase**, **OpenAI**), which expanded the company’s portfolio.
-* Assisted development of [Socialgen.ai](https://socialgen.ai/), a social media post generator with **Next.js** \+ **Chakra UI** \+ **Firebase** \+ **OpenAI**, which became one of the main products of the company.
+- Led frontend (**Next.js**) for an internal system tracking cash movements across company facilities.
+- Cut **INP by 50%** and automated manual processes, lowering operational cost and reducing auditing errors from **~1% to zero**.
 
-* ## [**www.magic3t.com.br**](http://www.magic3t.com.br) **(hobby project) | 2023.03**
+### Software Engineer — Orium
+*Mar 2024 – Feb 2025*
 
-  Created Magic3T, a mathematical turn-based game based on Tic Tac Toe and magic squares and built upon **React**, **Nest.js**, **Firebase**, **PostgreSQL**, **Vercel** and **Render**. I use this project as a playground for testing new tools and architectures.
-  Repositories: [King-witcher/Magic3T](https://github.com/King-witcher/Magic3T), [King-witcher/Magic3T-Firebase](https://github.com/King-witcher/Magic3T-Firebase).
+- Led frontend for Orium Network, an NFT-rental marketplace (**Next.js**, React, Wagmi); refactored the flow for adding collections and **nearly doubled development throughput**.
+- Integrated the React app with **Polygon** and **Moonbeam** smart contracts via Wagmi and kept the UI in sync with Solidity upgrades, cutting integration errors.
+- Picked up **Rust** to fork the open-source **graph-node** indexer and led a custom blockchain-indexing strategy — a working version in two months with **9x faster syncs** — and landed a [bug-fix PR merged upstream](https://github.com/graphprotocol/graph-node/pull/5755).
 
-* ## **Full Stack Software Engineer @ Lab1001 | 2023.09 \- 2024.03 (7 months)**
+### Full Stack Engineer — Lab1001
+*Sep 2023 – Mar 2024*
 
-  Created an MVP that tracked YouTube and Twitch content from creators and aggregated it into a single hub using **Next.js** and **Firebase** for authentication and NoSQL database. Collaborated with one engineer and delivered it in approximately two months, followed by five months of iterative improvements and feature development.
+- Built an MVP (**Next.js**, **Firebase**) aggregating YouTube and Twitch content from creators into a single hub; shipped in ~2 months with a two-person team, then led five months of iterative feature work.
 
-* ## **Software Engineer @ Orium | 2024.03 \- 2025.02 (1 year)**
+### 3D Frontend Engineer — R2U
+*Sep 2022 – Aug 2023*
 
-* Led front-end development for Orium Network, an NFT rental marketplace built with **Next.js**, Wagmi, **React**; improved code quality and streamlined the process for adding new collections, which nearly doubled development productivity.
-* Integrated the React front‑end with Polygon and Moonbeam smart contracts using Wagmi, and updated the UI to match Solidity backend upgrades, reducing integration errors and keeping the product in sync with blockchain changes.
-* Learning Rust from scratch, forked the open source [graph-node](https://github.com/graphprotocol/graph-node) project, **understood its complex codebase** and led implementation of a custom indexing strategy for blockchain data. In two months, I got a functional version with **9x faster syncs**. Fixed a bug in the official code and got a PR merged [here](https://github.com/graphprotocol/graph-node/pull/5755).
+- Maintained and improved a **Three.js** 3D model viewer and its npm SDK — diagnosed and fixed memory leaks and added GLTF animation support.
+- Integrated the AR SDK across client sites, letting shoppers preview products at home via QR code, reaching an **~80% interaction rate**.
+- Delivered custom React apps for clients including the [GE HealthCare Immersive Demo](https://gehc-immersive-demo.netlify.app/) and [Reserva DApp](https://spriznft.usereserva.com/) (Next.js, i18n).
 
-* ## **Senior Frontend Engineer @ Grupo Protege | 2025.03 \- 2025.08 (6 months)**
+### Full Stack Engineer — Vivalisto
+*Mar 2022 – Aug 2022*
 
-  Led frontend development with **Next.js** at Grupo Protege for an internal application used to track cash movements across company facilities. Reduced INP by 50% and implemented features that automated internal processes, lowering operational costs and reducing auditing errors from roughly 1% to zero.
+- Built and maintained web apps (**React**, **Express**, **MongoDB**, **MySQL**); automated customer-specific PDF contract generation (**1,400+ documents**) and cut load times **3x** by restructuring queries and adding indexes.
 
-* ## **Senior Full Stack Engineer @ Indigo Hive | 2025.08 \- now**
+## Selected Projects
 
-* Built a [WhatsApp Flows editor](https://messenger.cogfy.com/editor) with **React** that enabled the company to deliver multiple different products for clients via chatbots by integrating forms into the conversation.
-* Assisted the development of Cogfy Engines with **React**, **Express.js** and **PostgreSQL**, an internal system used to automate the process of creating LLM powered chatbots, which helps the company deliver products to customers faster.
-* Lead the end-to-end development and architecture of **CoGEdu**, a multi-tenant LMS \+ student-admissions platform — two **React** frontends, a **TypeScript/Node** API, and a 170-table **PostgreSQL** schema, deployed on **AWS** (ECS, S3, Secrets Manager) — serving 1,800+ users across multiple institutions. Code-reviewed and mentored two junior developers.
-* Built its core systems: multi-tenant **RBAC** with **Keycloak** SSO, an event-driven **RabbitMQ** audit/email pipeline, an assessment \& attendance engine, and an **LLM orchestrator** with RBAC-scoped tool-calling and **RAG** over course content.
+- **GL-Tech — real-time graphics engine** *(personal, ongoing)* — a rendering engine I keep rebuilding to go deep on low-level systems programming: multiple versions in **C++, Rust and C#**, targeting **OpenGL, Vulkan and SDL3**, with a layered engine/game architecture and multithreaded rendering, plus from-scratch ray-casting renderers. All on [GitHub](http://github.com/king-witcher).
+- **[Magic3T](http://www.magic3t.com.br)** — a turn-based math game (Tic-Tac-Toe × magic squares) built with React, NestJS, Firebase and PostgreSQL; my playground for testing new tools and architectures. Repos: [Magic3T](https://github.com/King-witcher/Magic3T), [Magic3T-Firebase](https://github.com/King-witcher/Magic3T-Firebase).
+
+## Education
+
+- **B.Sc. in Information Systems** — University of São Paulo (USP), *[2018 — 2021]*
+
+## Languages
+
+- **Portuguese** — Native
+- **English** — Fluent (professional; US client-facing experience)
