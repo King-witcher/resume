@@ -86,6 +86,8 @@ Senior Full Stack Engineer graduated in Information Systems from **University of
 
 - Built and maintained web apps (**React**, **Express**, **MongoDB**, **MySQL**); automated customer-specific PDF contract generation (**1,400+ documents** in 2 months) and increased app responsiveness by roughly **3x** by rewriting queries and adding proper indexes.
 
+<div class='page-break'></div>
+
 ## Hobby Projects
 
 - **GL-Tech - real-time graphics engine** *(personal, ongoing)* - a rendering engine I keep rebuilding to go deep on low-level systems programming: multiple versions in **C++, Rust and C#**, targeting **OpenGL, Vulkan and SDL3**, with a layered engine/game architecture and multithreaded rendering, plus from-scratch ray-casting renderers. All on [GitHub](http://github.com/king-witcher).

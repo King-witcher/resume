@@ -27,7 +27,7 @@ jobs:
 
       # Same script as local; writes the PDFs to ./build
       - name: Build PDF files
-        run: bun run build master.md
+        run: bun run build
 
       - name: Assume AWS role
         uses: aws-actions/configure-aws-credentials@v6
