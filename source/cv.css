@@ -1,0 +1,65 @@
+/* Page */
+@page {
+  size: A5;
+  margin: 33pt;
+}
+
+html {
+  font-size: 11pt;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, 'Nimbus Sans', 'Liberation Sans', sans-serif;
+  line-height: 1.2;
+  color: #000;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin: 1em 0;
+  padding-top: 11pt;
+  font-weight: bold;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+
+h1, h2 {
+  padding-bottom: 0.2em;
+  border-bottom: 1pt solid #c0c0c0;
+}
+
+/* Text */
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00f;
+  text-decoration: underline;
+}
+
+hr {
+  margin: 1em 0;
+  height: 2pt;
+  border: 0;
+  background: #c0c0c0;
+}
+
+/* Lists */
+ul {
+  margin: 1em 0;
+  padding-left: 30pt;
+}
+
+/* Bullet + two spaces puts the dot 10pt left of the text */
+li::marker {
+  content: '•  ';
+}
+
+/* Pagination */
+.page-break { break-before: page; }
+h1, h2, h3 { break-after: avoid; }
+li, p { break-inside: avoid; }

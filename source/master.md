@@ -1,42 +1,50 @@
 # Giuseppe Lanna
 
-**Senior Full Stack Engineer — AI/LLM & React**
+**Senior Full Stack Engineer | React specialist, Node, PostgreSQL, AWS**
 
-São Paulo, Brazil · Remote · overlaps US & EU business hours
+São Paulo/SP, Brazil
 
-[Email](mailto:giuseppe.2000@hotmail.com) · [WhatsApp](http://wa.me/5511960541030) · [GitHub](http://github.com/king-witcher) · [LinkedIn](http://linkedin.com/in/giuseppe-lanna)
+Email: [giuseppe.2000@live.com](mailto:giuseppe.2000@live.com)
+
+GitHub: [http://github.com/king-witcher](http://github.com/king-witcher)
+
+LinkedIn: [http://linkedin.com/in/giuseppe-lanna](http://linkedin.com/in/giuseppe-lanna)
 
 ---
 
 ## Summary
 
-Senior Full Stack Engineer with 4.5 years building and shipping production web apps end-to-end in **React**, **Vite/Next.js** and **Express.js / Nest.js**. Recently focused on integrating AI into software with **RAG, tool-calling, and multi-provider LLM orchestration**. Currently leading **CoGEdu** engineering, a multi-tenant LMS serving **1,800+ users**. I love solving complex logical reasoning problems and seeing them create true impact.
-
-## AI / LLM Engineering
-
-- Integrated **Anthropic, OpenAI and Google**: chat completion, structured outputs, embeddings and retrieval.
-- Built **Cogfy Engines**, an internal platform that automates building LLM-powered chatbots on WhatsApp, cutting delivery time for client products.
-- Built **Socialgen.ai**, an OpenAI-powered social-media generator that became one of R2U's flagship products at the time.
+Senior Full Stack Engineer graduated in Information Systems from University of São Paulo, I have ~5 years of startup experience shipping full-stack applications. Recently focused on integrating AI into software with chat completions, embedding and RAG. Currently leading **Orchestra** engineering, a multi-tenant LMS serving **2,000+ users**. I love Computer Science and solving complex problems with it since early childhood.
 
 ## Core Skills
 
-- **Frontend:** React (Next.js, Vite), TanStack Query/Router, Redux Toolkit, Zustand, Apollo Client, Tailwind CSS, Radix UI, shadcn/ui, Three.js
-- **Backend:** Node.js (NestJS, Express), TypeScript, WebSockets (Socket.io), RabbitMQ
-- **AI / LLM:** chat completion, tool-calling, structured outputs, embeddings & RAG, multi-provider gateway (Anthropic, OpenAI, Google)
-- **Databases:** PostgreSQL, Firestore
-- **Cloud & DevOps:** AWS (ECS, S3, Secrets Manager), Docker, Vercel, Render, Supabase, Neon
-- **Auth:** Keycloak (SSO/OIDC)
+- **Computer Science:** Strong CS foundation, algorithms, data structures, big-O notation, design patterns, TDD and attention to clean code principles such as SOLID, DRY, KISS and YAGNI.
+- **Frontend:** Strong experience with **React**, TanStack Query/Router, Redux Toolkit, Zustand, Apollo Client, Tailwind CSS, Radix UI, shadcn/ui, Three.js
+- **Backend & Data:** Node.js (NestJS & Express), PostgreSQL, Redis, WebSockets (Socket.io), RabbitMQ, Keycloak (SSO/OIDC)
+- **AI / LLM:** tool-calling, structured outputs, embeddings & RAG with pgvector
+- **Cloud & Tooling:** AWS (IAM, ECS, EC2, RDS, S3, CloudFront), Docker, GitHub Actions
 - **Testing & Observability:** Vitest, Ladle, Sentry, PostHog
-- **Also:** Rust (Tokio, Diesel, Reqwest)
+- **Extra:** Deep love with Rust language and 3D rendering (OpenGL, Vulkan, ThreeJS, SDL3…)
+
+## Languages
+
+- **Portuguese** — Native
+- **English** — Proficient (C1)
+
+<div class='page-break'></div>
 
 ## Experience
 
 ### Senior Full Stack Engineer — Indigo Hive
 *Aug 2025 – Present*
 
-- Took over technical leadership of the full-stack development of **CoGEdu**, a multi-tenant LMS + student-admissions platform: two **React** frontends, a **TypeScript/Node** API, and a **170-table PostgreSQL** schema, all on **AWS** (RDS, ECS, S3, Secrets Manager) — serving **1,800+ users** across multiple institutions.
+- Integrated AI APIs - such as OpenAI - into an AI-powered chatbot engine with tool calling, embedding and RAG with pgvector and HNSW indexes for context management.
+- Code-reviewed and mentored junior developers.
+- Automated and optimized data mining pipelines with challenging amounts of data, using Structured Outputs. Optimized request parallelism and "thread" occupancy while handling backpressure with a personal library inspired by Golang.
 - Shipped a visual [**WhatsApp Flows editor**](https://messenger.cogfy.com/editor) in React, letting the company deliver form-driven chatbot products to clients without custom code.
-- Code-reviewed and mentored two junior developers.
+- Led development of Orchestra - an AI-enabled LMS. Using Claude Code for coding and Anthropic + Google Gen AI apis for our integrations, reached over 2500 users.
+- Brought observability to Orchestra with Sentry (Error and log tracking, session replays, user feedbacks) and Posthog events for tracking closely how users interact with our app, which led to **~70% relduction in bug fix times**, ease of debugging and enabled us to make more strategic decisions about what to prioritize in the product.
+
 
 ### Senior Frontend Engineer — Grupo Protege
 *Mar 2025 – Aug 2025*
@@ -73,12 +81,3 @@ Senior Full Stack Engineer with 4.5 years building and shipping production web a
 
 - **GL-Tech — real-time graphics engine** *(personal, ongoing)* — a rendering engine I keep rebuilding to go deep on low-level systems programming: multiple versions in **C++, Rust and C#**, targeting **OpenGL, Vulkan and SDL3**, with a layered engine/game architecture and multithreaded rendering, plus from-scratch ray-casting renderers. All on [GitHub](http://github.com/king-witcher).
 - **[Magic3T](http://www.magic3t.com.br)** — a turn-based math game (Tic-Tac-Toe × magic squares) built with React, NestJS, Firebase and PostgreSQL; my playground for testing new tools and architectures. Repos: [Magic3T](https://github.com/King-witcher/Magic3T), [Magic3T-Firebase](https://github.com/King-witcher/Magic3T-Firebase).
-
-## Education
-
-- **B.Sc. in Information Systems** — University of São Paulo (USP), 2018 — 2021
-
-## Languages
-
-- **Portuguese** — Native
-- **English** — Proficient (C1)
