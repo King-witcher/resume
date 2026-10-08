@@ -14,7 +14,7 @@ LinkedIn: [http://linkedin.com/in/giuseppe-lanna](http://linkedin.com/in/giusepp
 
 ## Summary
 
-Senior Full Stack Engineer graduated in Information Systems from University of São Paulo, I have ~5 years of startup experience shipping full-stack applications. Recently focused on integrating AI into software with chat completions, embedding and RAG. Currently leading **Orchestra** engineering, a multi-tenant LMS serving **2,000+ users**. I love Computer Science and solving complex problems with it since early childhood.
+Senior Full Stack Engineer graduated in Information Systems from **University of São Paulo (USP)**, I have ~5 years of startup experience shipping full-stack applications. Recently, I'm focused on integrating AI into software with chat completions, embedding and RAG. Currently leading **Orchestra** engineering, a multi-tenant LMS serving **2,000+ users**. I love Computer Science and solving complex problems with it since early childhood.
 
 ## Core Skills
 
