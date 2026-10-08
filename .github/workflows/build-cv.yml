@@ -2,7 +2,7 @@ name: Build CV and push to S3
 
 on:
   push:
-    branches: [main, workflow]
+    branches: [main]
     paths:
       - 'source/**'
       - 'scripts/**'
