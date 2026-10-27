@@ -56,6 +56,21 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* Header: USP logo in the top-right corner -------------------------------- */
+/* Sized to sit beside the name only: it starts at the name's cap height and
+   ends above the headline, which is too long (in PT-BR) to share a row with it.
+   Floated so a longer name would wrap instead of running under it.
+   The PNG has white padding around the letters (artwork is 729x298 of
+   739x415 px); the background size/position crop it so the box hugs it. */
+body::before {
+  content: '';
+  float: right;
+  width: 24mm;
+  aspect-ratio: 729 / 298;
+  margin: 5pt 0 0 14pt;
+  background: url('ups-logo.png') 50% 47% / 101.4% auto no-repeat;
+}
+
 /* Header: name ------------------------------------------------------------ */
 h1 {
   font-family: var(--sans);
