@@ -4,7 +4,7 @@
 
 São Paulo/SP, Brazil
 
-Email: [giuseppe.2000@live.com](mailto:giuseppe.2000@live.com)
+Email: [giuseppe.2000@hotmail.com](mailto:giuseppe.2000@hotmail.com)
 
 GitHub: [http://github.com/king-witcher](http://github.com/king-witcher)
 
